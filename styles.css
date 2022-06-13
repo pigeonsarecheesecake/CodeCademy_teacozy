@@ -1,0 +1,172 @@
+*{
+    font-family: Helvetica;
+    /* font-size: 22px; */
+    color:seashell;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom:  1px solid seashell;
+    /* background-color: aliceblue; */
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+/* Navigation Links */
+.navigation-menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.navigation-menu li{
+    padding: 0 20px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    
+}
+
+.jumbotron-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+h4.jumbotron-text{
+    margin-top: 0;
+}
+
+/* Tea of the month */
+
+.tea-of-the-month{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-headers{
+    text-align: center;
+}
+
+.tea-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+    flex-basis: 300px;
+    height: 200px;
+    margin:0 16px;
+}
+
+
+figcaption{
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Another way of me doing it, before nesting the images into the tea of the month section */
+/* .tea-headers{
+    border: 2px solid white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-images{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+.pic{
+    border: 2px solid white;
+}
+.img{
+    flex-basis: 300px;
+    height: 200px;
+}
+figcaption{
+    text-align: center;
+    padding-top: 10px;
+} */
+
+/* Locations */
+
+.location-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("./images/img-locations-background.jpg");
+    background-position: center;
+}
+.location-section h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+#locations{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+.address{
+    width:300px;
+    margin: 0 20px;
+    background-color: black;
+  
+}
+
+.address h2, .address p{
+    padding: 10px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer h2{
+    margin-top:2px;
+}
+
+.copyright{
+    margin-left: 20px;
+}
